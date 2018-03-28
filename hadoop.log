@@ -1,0 +1,66 @@
+2018-03-18 14:20:18,336 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-03-18 14:20:20,830 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2018-03-18 14:20:20,838 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2018-03-18 14:20:21,888 WARN org.apache.hadoop.mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2018-03-18 14:20:21,896 WARN org.apache.hadoop.mapreduce.JobResourceUploader: No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-03-18 14:20:21,930 INFO org.apache.hadoop.mapreduce.JobSubmitter: Cleaning up the staging area file:/tmp/hadoop-cloudera/mapred/staging/cloudera1243434691/.staging/job_local1243434691_0001
+2018-03-18 14:20:21,931 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: file:/home/cloudera/workspace/MutualFriends/data.txt
+2018-03-18 14:53:36,732 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-03-18 14:53:38,414 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2018-03-18 14:53:38,416 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2018-03-18 14:53:39,196 WARN org.apache.hadoop.mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2018-03-18 14:53:39,201 WARN org.apache.hadoop.mapreduce.JobResourceUploader: No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-03-18 14:53:39,224 INFO org.apache.hadoop.mapreduce.JobSubmitter: Cleaning up the staging area file:/tmp/hadoop-cloudera/mapred/staging/cloudera1046079845/.staging/job_local1046079845_0001
+2018-03-18 14:53:39,225 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: file:/home/cloudera/workspace/MutualFriends/soc-Livejournal1Adj.txt
+2018-03-18 14:54:25,579 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-03-18 14:54:26,967 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2018-03-18 14:54:26,972 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2018-03-18 14:54:27,617 WARN org.apache.hadoop.mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2018-03-18 14:54:27,629 WARN org.apache.hadoop.mapreduce.JobResourceUploader: No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-03-18 14:54:27,697 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 1
+2018-03-18 14:54:27,911 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:1
+2018-03-18 14:54:29,059 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local837318488_0001
+2018-03-18 14:54:30,217 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2018-03-18 14:54:30,220 INFO org.apache.hadoop.mapreduce.Job: Running job: job_local837318488_0001
+2018-03-18 14:54:30,236 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2018-03-18 14:54:30,299 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2018-03-18 14:54:30,323 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2018-03-18 14:54:30,609 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2018-03-18 14:54:30,611 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local837318488_0001_m_000000_0
+2018-03-18 14:54:30,734 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2018-03-18 14:54:30,874 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2018-03-18 14:54:30,883 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/workspace/MutualFriends/soc-LiveJournal1Adj.txt:0+4156181
+2018-03-18 14:54:31,245 INFO org.apache.hadoop.mapreduce.Job: Job job_local837318488_0001 running in uber mode : false
+2018-03-18 14:54:31,248 INFO org.apache.hadoop.mapreduce.Job:  map 0% reduce 0%
+2018-03-18 14:54:33,512 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2018-03-18 14:54:33,513 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2018-03-18 14:54:33,514 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2018-03-18 14:54:33,514 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2018-03-18 14:54:33,514 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2018-03-18 14:54:33,770 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2018-03-18 14:54:36,625 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2018-03-18 14:54:36,625 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 46240144; bufvoid = 104857600
+2018-03-18 14:54:36,625 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 16802920(67211680); length = 9411477/6553600
+2018-03-18 14:54:36,625 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 55827120 kvi 13956776(55827104)
+2018-03-18 14:54:39,811 INFO org.apache.hadoop.mapred.LocalJobRunner: map > map
+2018-03-18 14:54:40,269 INFO org.apache.hadoop.mapreduce.Job:  map 6% reduce 0%
+2018-03-18 14:54:42,841 INFO org.apache.hadoop.mapred.LocalJobRunner: map > map
+2018-03-18 14:54:44,049 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2018-03-18 14:54:44,051 INFO org.apache.hadoop.mapred.MapTask: (RESET) equator 55827120 kv 13956776(55827104) kvi 11632616(46530464)
+2018-03-18 14:54:45,237 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2018-03-18 14:54:45,239 INFO org.apache.hadoop.mapred.MapTask: bufstart = 55827120; bufend = 102054950; bufvoid = 104857600
+2018-03-18 14:54:45,239 INFO org.apache.hadoop.mapred.MapTask: kvstart = 13956776(55827104); kvend = 4542216(18168864); length = 9414561/6553600
+2018-03-18 14:54:45,239 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 6784310 kvi 1696072(6784288)
+2018-03-18 14:54:45,844 INFO org.apache.hadoop.mapred.LocalJobRunner: map > map
+2018-03-18 14:54:46,274 INFO org.apache.hadoop.mapreduce.Job:  map 10% reduce 0%
+2018-03-18 14:54:48,845 INFO org.apache.hadoop.mapred.LocalJobRunner: map > map
+2018-03-18 14:54:51,845 INFO org.apache.hadoop.mapred.LocalJobRunner: map > map
+2018-03-18 14:54:52,434 INFO org.apache.hadoop.mapred.MapTask: Finished spill 1
+2018-03-18 14:54:52,435 INFO org.apache.hadoop.mapred.MapTask: (RESET) equator 6784310 kv 1696072(6784288) kvi 25579996(102319984)
+2018-03-18 14:54:53,807 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2018-03-18 14:54:53,858 INFO org.apache.hadoop.mapred.MapTask: bufstart = 6784310; bufend = 53129720; bufvoid = 104857600
+2018-03-18 14:54:53,858 INFO org.apache.hadoop.mapred.MapTask: kvstart = 1696072(6784288); kvend = 18525312(74101248); length = 9385161/6553600
+2018-03-18 14:54:53,858 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 62716696 kvi 15679168(62716672)
+2018-03-18 14:54:54,846 INFO org.apache.hadoop.mapred.LocalJobRunner: map > map
+2018-03-18 14:54:55,281 INFO org.apache.hadoop.mapreduce.Job:  map 15% reduce 0%
+2018-03-18 14:54:57,848 INFO org.apache.hadoop.mapred.LocalJobRunner: map > map
